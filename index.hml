@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMEN-GOGS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 40px;
+            position: relative;
+        }
+        h1 {
+            color: #3c6e71;
+        }
+        h2 {
+            color: #2a9d8f;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #e63946; /* Red background */
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.3s;
+            animation: pulse 2s infinite;
+        }
+        .button:hover {
+            background-color: #d62839; /* Darker red on hover */
+            transform: scale(1.1);
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        .rectangle {
+            border: 5px solid green; /* Thinner lines */
+            padding: 20px;
+            margin: 20px auto;
+            display: inline-block;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        .rectangle::before {
+            content: '';
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            border: 5px solid yellow; /* Thinner yellow line */
+            z-index: -1;
+        }
+        .rectangle::after {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 5px solid red; /* Thinner red line */
+            z-index: -1;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="rectangle">
+        <h1>AMEN-GOGS</h1>
+        <h2>The right choice, the right place</h2>
+        
+        <!-- Get More Button -->
+        <a href="https://www.youtube.com/channel/UCLBivSEh30F44ptAAgEVRUA?sub_confirmation=1" target="_blank" class="button">Get More</a>
+
+        <br>
+        
+        <!-- Romantic Female Doctor Image -->
+        <img src="https://yourusername.github.io/your-repo/images/your-image-name.jpg" alt="Beautiful Female Doctor" style="margin-top: 20px;">
+    </div>
+</body>
+</html>
